@@ -14,7 +14,7 @@ const WizardCards = (props:any) => {
                 />
             </div>
             <div className="font-bold">
-                <span>{props.firstName}</span>
+                <span>{props.firstName ? props.firstName : "???"}</span>
             </div>
             <div>
                 <span>{props.pronouns}</span>

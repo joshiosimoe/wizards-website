@@ -13,16 +13,14 @@ const WizardCards = (props:any) => {
                 height={200}
                 />
             </div>
-            <div className="h-[300px] bg-yellow-400">
-                <div className="font-bold bg-red-400">
-                    <span>{props.firstName}</span>
-                </div>
-                <div>
-                    <span>{props.pronouns}</span>
-                </div>
-                <div>
-                    <span>WE LUV WIZARDS!!</span>
-                </div>
+            <div className="font-bold text-black">
+                <span>{props.firstName}</span>
+            </div>
+            <div className="text-black">
+                <span>{props.pronouns}</span>
+            </div>
+            <div className="text-black">
+                <span>WE LUV WIZARDS!!</span>
             </div>
         </div>
     )

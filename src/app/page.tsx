@@ -9,13 +9,15 @@ export default function Home() {
         <div className="text-white p-16 text-[40px] font-bold text-center">
           <span>WELCOME TO WIZARDS WEBSITE</span>
         </div>
-        <div className="grid grid-cols-4 text-center gap-4 mx-16">
+        <div className="grid grid-cols-3 text-center gap-4 mx-16">
           {
             Users.map((user) => (
               <WizardCards
               key = {user.id}
               firstName = {user.firstName}
-              wizardURL = {user.wizardURL}/>
+              wizardURL = {user.wizardURL}
+              pronouns = {user.pronouns}
+              />
             ))
           }
         </div>

@@ -33,13 +33,13 @@ export const Users = [
     "id": 6,
     "firstName": "Kenn",
     "wizardURL": "/KennWizard.png",
-    "pronouns": "He/Her",
+    "pronouns": "He/Him",
 },
 {
     "id": 7,
     "firstName": "Kenneth",
     "wizardURL": "/KennethWizard.PNG",
-    "pronouns": "He/Her",
+    "pronouns": "He/Him",
 },
 {
     "id": 8,
@@ -57,7 +57,7 @@ export const Users = [
     "id": 10,
     "firstName": "Ykin",
     "wizardURL": "/YkinWizard.png",
-    "pronouns": "He/Her"
+    "pronouns": "He/Him"
 },
 {
     "id": 11,

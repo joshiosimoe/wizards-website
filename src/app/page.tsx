@@ -9,7 +9,7 @@ export default function Home() {
         <div className="text-white p-16 text-[40px] font-bold text-center">
           <span>WELCOME TO WIZARDS WEBSITE</span>
         </div>
-        <div className="grid grid-cols-3 text-center gap-4 mx-16">
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 text-center gap-4 mx-16">
           {
             Users.map((user) => (
               <WizardCards

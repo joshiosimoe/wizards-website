@@ -4,7 +4,7 @@ import Image from "next/image"
 
 const WizardCards = (props:any) => {
     return(
-        <div className="bg-white h-[500px] rounded-md flex flex-col items-center p-10 gap-2">
+        <div className="bg-white h-[500px] rounded-md flex flex-col items-center p-10 gap-2 text-lg text-wrap">
             <div className="grid place-items-center h-[300px]">
                 <Image
                 src={props.wizardURL}

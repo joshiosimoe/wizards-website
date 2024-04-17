@@ -50,7 +50,7 @@ export const Users = [
 {
     "id": 9,
     "firstName": "Sarah",
-    "wizardURL": "/JadenWizard.png",
+    "wizardURL": "/SarahWizard.png",
     "pronouns": "She/Her"
 },
 {

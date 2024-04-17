@@ -11,6 +11,7 @@ const WizardCards = (props:any) => {
                 alt={`${props.firstName}'s Wizard`}
                 width={200}
                 height={200}
+                className="object-contain"
                 />
             </div>
             <div className="font-bold text-black">

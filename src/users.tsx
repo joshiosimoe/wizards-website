@@ -62,7 +62,7 @@ export const Users = [
 {
     "id": 11,
     "firstName": "Nam",
-    "wizardURL": "/JadenWizard.png",
+    "wizardURL": "/NamWizard.jpg",
     "pronouns": "She/Her"
 },
 {
@@ -74,7 +74,7 @@ export const Users = [
 {
     "id": 13,
     "firstName": "Tra",
-    "wizardURL": "/JadenWizard.png",
+    "wizardURL": "/TraWizard.png",
     "pronouns": "She/Her"
 },
 
